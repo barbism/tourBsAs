@@ -1,10 +1,10 @@
 
-const valorTicket = 5000;
+const valorTicket = 10000;
 
 
 let descuento3destinos = 30;
-let descuento2destinos  = 20;
-let descuento1destino     = 10;
+let descuento2destinos = 20;
+let descuento1destino  = 10;
 
 
 let nombre          = document.getElementById("nombre");
