@@ -1,10 +1,10 @@
 
-const valorTicket = 200;
+const valorTicket = 5000;
 
 
-let descuentoEstudiante = 80;
-let descuentoTrainee    = 50;
-let descuentoJunior     = 15;
+let descuento3destinos = 30;
+let descuento2destinos  = 20;
+let descuento1destino     = 10;
 
 
 let nombre          = document.getElementById("nombre");
@@ -86,13 +86,13 @@ function total_a_pagar() {
         totalValorTickets = totalValorTickets ;
     }
     if (categoria.value == 1) {
-        totalValorTickets = totalValorTickets - (descuentoEstudiante / 100 * totalValorTickets);
+        totalValorTickets = totalValorTickets - (descuento3destinos / 100 * totalValorTickets);
     }
     if (categoria.value == 2) {
-        totalValorTickets = totalValorTickets - (descuentoTrainee / 100 * totalValorTickets);
+        totalValorTickets = totalValorTickets - (descuento2destinos / 100 * totalValorTickets);
     }
     if (categoria.value == 3) {
-        totalValorTickets = totalValorTickets - (descuentoJunior / 100 * totalValorTickets);
+        totalValorTickets = totalValorTickets - (descuento1destino / 100 * totalValorTickets);
     }
 
     
